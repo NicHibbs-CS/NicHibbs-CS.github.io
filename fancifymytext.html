@@ -3,13 +3,12 @@
 <html lang="en-US">
   <head>
     <meta charset="utf-8" />
-    <title>My test page</title>
-    <style>
-      
-    </style>
+    <title>Fancify Shamcify</title>
+    <script src="fancifymytext.js" defer></script>
   </head>
   <body>
     <h1>Nic's WebDev Page</h1>
+
     <div>
       <li><a href="./index.html">Home</a></li>
       <li><a href="./projects.html">Projects</a></li>
@@ -18,16 +17,26 @@
       <li><a href="./index.html">Forums</a></li>
       <li><a href="./index.html">Contact</a></li>  
     </div>
-    <ul>
 
-    </ul>
+    <h1>Fancify My Text</h1>
 
-    <script>
-      
-    </script>
-    <p>
-      
-    </p>
-   
+    <fieldset>
+      <legend>Text</legend>
+      <textarea id="insertText" cols="30" rows="4"></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>Fancify</legend>
+      <button type="button" id="button-Bigger">Bigger!</button> 
+      <form>
+          <input type="radio" id="radioButton-fancy" name="style" value="fancy">
+          <label for="radioButton-fancy">FancyShmancy</label><br>
+        <input type="radio" id="radioButton-boring" name="style" value="boring">
+        <label for="radioButton-boring">BoringBetty</label><br>
+        </form>
+    </fieldset>
+
+    <button type="button" id="button-Moo">Moo</button>
+    
   </body>
 </html>
